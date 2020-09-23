@@ -1,0 +1,22 @@
+.menu-toggle {
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    z-index: 100;
+    transition: all .22s ease-in;
+    color: #fff;
+    font-style: 20px;
+    cursor: pointer;
+
+    &:hover {
+        opacity: .7;
+    }
+
+    &.open {
+        left: 320px;
+    }
+}
+
+// .open {
+//     left: 320px;
+// }
